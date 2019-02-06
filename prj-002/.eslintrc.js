@@ -1,4 +1,6 @@
+process.chdir(__dirname);
 module.exports = {
+
   root: true,
   parserOptions: {
     ecmaVersion: 2017,
