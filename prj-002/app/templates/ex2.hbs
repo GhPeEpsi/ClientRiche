@@ -1,0 +1,8 @@
+{{outlet}}
+<div>Services sélectionnés : {{model.countActive}}</div>
+<div>Montant total : {{model.sumActive}}</div>
+<ul>
+{{#each model.services as |service|}}
+  <li {{action "toggleActive" service}}>{{input type="checkbox" checked=service.active}} {{service.name}} {{service.price}}</li>
+{{/each}}
+</ul>
