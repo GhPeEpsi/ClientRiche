@@ -6,10 +6,10 @@ export function pluralize(params/*, hash*/) {
     return zero;
   }
   if (count===1){
-    return one;
+    return count+" "+one;
   }
 
-  return plus;
+  return count+" "+plus;
 }
 
 export default helper(pluralize);
