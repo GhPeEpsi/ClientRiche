@@ -18,13 +18,19 @@ let Services=EmberObject.extend({
       }
     });
     return total;
+  }),
+  codePromo:null,
+  promos:null,
+  txReduction:computed('codePromo','promos',function() {
+    return this.get('promos')[this.get('codePromo')];
   })
 });
 
 
 export default Route.extend({
   model(){
-    return Services.create({services:[
+    return Services.create({
+      services:[
         {
           "name": "Web Development",
           "price": 300,
@@ -42,7 +48,12 @@ export default Route.extend({
           "price": 220,
           "active":false
         }
-      ]
+      ],
+      promos:{
+        "B22":0.05,
+        "AZ":0.01,
+        "UBOAT":0.02
+      }
     });
   }
 });
