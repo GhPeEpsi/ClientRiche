@@ -23,6 +23,11 @@ let Services=EmberObject.extend({
   promos:null,
   txReduction:computed('codePromo','promos',function() {
     return this.get('promos')[this.get('codePromo')];
+  }),
+  montantTotal:computed('sumActive',function(){
+    let total=0;
+    total = this.get('sumActive')*(1-this.get('txReduction'));
+    return total;
   })
 });
 
