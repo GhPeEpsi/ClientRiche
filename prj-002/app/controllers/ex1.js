@@ -6,6 +6,10 @@ export default Controller.extend({
       if (note.get('content')){
         note.set('info','Note sauvegardée !');
       }
+    },
+
+    vider(note){
+      note.set('content', '');
     }
   }
 });
