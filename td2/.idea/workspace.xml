@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd3a4d5-fa98-4efa-b2a8-e2091cbc56ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../td3/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prj-002/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prj-002/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../td3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td3/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../td3/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td3/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../td3/app/templates/application.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td3/ember-cli-build.js" beforeDir="false" afterPath="$PROJECT_DIR$/../td3/ember-cli-build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td3/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../td3/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../td3/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../td4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td4/app/routes/developers/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/../td4/app/routes/developers/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td4/app/routes/developers/new.js" beforeDir="false" afterPath="$PROJECT_DIR$/../td4/app/routes/developers/new.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td4/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../td4/app/templates/application.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td4/app/templates/developers.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../td4/app/templates/developers.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td4/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../td4/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../td4/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bower_components.ember-try/" />
     <ignored path="$PROJECT_DIR$/.node_modules.ember-try/" />
@@ -35,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/multi-select.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -43,6 +42,15 @@
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -65,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="376" />
     <option name="y" value="17" />
     <option name="width" value="811" />
@@ -77,7 +85,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,43 +101,13 @@
               <item name="td2" type="b2602c69:ProjectViewProjectNode" />
               <item name="td2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="td2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="td2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="td2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="td2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="td2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="td2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="td2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="td2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="td2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="td2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,20 +151,22 @@
       <workItem from="1552029713669" duration="366000" />
       <workItem from="1552031599666" duration="582000" />
       <workItem from="1552634826659" duration="467000" />
+      <workItem from="1553070479199" duration="636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17613000" />
+    <option name="totallyTimeSpent" value="18249000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="376" y="17" width="811" height="775" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.20827943" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.119791664" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -207,13 +186,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/step1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -252,6 +224,13 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="38" />
         </state>
       </provider>
     </entry>
