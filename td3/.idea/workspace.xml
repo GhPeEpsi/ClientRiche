@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71d6552c-ebe4-42bb-b539-66bf04d65421" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../td2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../td2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../td4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../td4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td4/app/routes/developers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../td4/app/routes/developers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td4/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../td4/app/templates/application.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td4/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../td4/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td4/app/routes/developers/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/../td4/app/routes/developers/edit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../td4/app/templates/developers.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../td4/app/templates/developers.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td4/app/templates/developers/edit.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../td4/app/templates/developers/edit.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bower_components.ember-try/" />
     <ignored path="$PROJECT_DIR$/.node_modules.ember-try/" />
@@ -134,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="376" />
     <option name="y" value="17" />
     <option name="width" value="811" />
@@ -267,8 +267,7 @@
     <option name="totallyTimeSpent" value="19224000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />

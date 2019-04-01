@@ -1,1 +1,9 @@
+<div>
+  {{#ui-form oldValue=model.dev newValue=ùmodel.data validation="save" cancel="cancel"}}
+  {{input value=model.data.identity placeholder="Identity"}}
+  <button class="ui icon circular button"{{action "save" model}}>
+    <i class="ui icon check"></i>
+  </button>
+  {{/ui-form}}
+</div>
 {{outlet}}
