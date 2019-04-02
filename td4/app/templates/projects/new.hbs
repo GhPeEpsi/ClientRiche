@@ -1,1 +1,9 @@
+<br/>
+{{input value=model.copy.identity placeholder="Name"}}<br/>
+{{input value=model.copy.identity placeholder="Descriptif"}}<br/>
+<label>StartDate : </label>{{input type="date" value=model.copy.identity placeholder="StartDate"}}<br/>
+<label>DueDate : </label>{{input type="date" value=model.copy.identity placeholder="DueDate"}}<br/>
+<button class="ui icon circular button"{{action "save" model}}>
+  Ajouter le projet <i class="ui icon check"></i>
+</button>
 {{outlet}}

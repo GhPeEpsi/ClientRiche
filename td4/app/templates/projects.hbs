@@ -1,1 +1,33 @@
+<table class="table">
+  <thead class="thead-dark">
+  <tr>
+    <th scope="col">Name</th>
+    <th scope="col" class="text-center">Descriptif</th>
+    <th scope="col" class="text-center">StartDate</th>
+    <th scope="col" class="text-center">DueDate</th>
+  </tr>
+  </thead>
+  <tbody>
+  {{#each model as |dev|}}
+    <tr>
+      <td>{{dev.identity}}</td>
+      <td class="text-center">
+        {{#link-to "projects.edit" dev}}
+          <button class="ui icon circular button">
+            <i class="ui icon edit"></i>
+          </button>
+        {{/link-to}}
+        <button {{action "delete" dev}} class="ui icon circular button">
+          <i class="ui icon remove"></i>
+        </button>
+      </td>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>
+
+{{#link-to "projects.new" class="ui button"}}
+  Ajouter un projet
+{{/link-to}}
+
 {{outlet}}
